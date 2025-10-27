@@ -34,9 +34,12 @@ const PasswordGate: React.FC<PasswordGateProps> = ({ onSuccess }) => {
     <div className="min-h-screen flex items-center justify-center bg-background">
       <div className="container max-w-md">
         <Card>
-          <CardHeader>
-            <CardTitle>Toegang vereist</CardTitle>
-            <CardDescription>Voer het wachtwoord in om het portfolio te openen.</CardDescription>
+          <CardHeader className="text-center">
+            <CardTitle className="text-2xl font-bold">Portfolio van Thom van der Mark</CardTitle>
+            <CardDescription className="mt-2">
+              Welkom bij het PPO-portfolio van Thom van der Mark. 
+              Voer het wachtwoord in om toegang te krijgen tot het portfolio.
+            </CardDescription>
           </CardHeader>
           <CardContent>
             <form onSubmit={handleSubmit} className="space-y-4">
