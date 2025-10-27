@@ -1,4 +1,4 @@
-import React from "react";
+import { useState } from "react";
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Navbar from './components/Navbar'
 import HomePage from './pages/HomePage'
@@ -12,8 +12,8 @@ import ReflectieModule1Page from './pages/ReflectieModule1Page'
 import Footer from './components/Footer'
 import PasswordGate from "@/components/PasswordGate";
 
-const App: React.FC = () => {
-  const [isAuthed, setIsAuthed] = React.useState<boolean>(() => {
+const App = () => {
+  const [isAuthed, setIsAuthed] = useState<boolean>(() => {
     return typeof window !== "undefined" && sessionStorage.getItem("ppo_auth") === "true";
   });
 
@@ -49,6 +49,5 @@ const App: React.FC = () => {
     </Router>
   );
 }
-
 
 export default App

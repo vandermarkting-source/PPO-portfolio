@@ -1,5 +1,5 @@
 /** @source timeline4 */
-import React from 'react';
+
 import PageNavigation from '@/components/PageNavigation';
 
 

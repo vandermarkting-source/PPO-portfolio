@@ -1,4 +1,3 @@
-import React from 'react';
 import PageNavigation from '@/components/PageNavigation';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 

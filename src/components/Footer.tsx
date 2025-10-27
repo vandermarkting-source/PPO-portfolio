@@ -1,5 +1,5 @@
 /** @source footer11 */
-import React from 'react';
+
 
 const Footer = () => {
   return (

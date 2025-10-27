@@ -1,4 +1,3 @@
-import React from 'react';
 import { Link } from 'react-router-dom';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 import { Button } from '@/components/ui/button';
@@ -14,7 +13,7 @@ interface PageNavigationProps {
   };
 }
 
-const PageNavigation: React.FC<PageNavigationProps> = ({ previousPage, nextPage }) => {
+const PageNavigation = ({ previousPage, nextPage }: PageNavigationProps) => {
   return (
     <div className="flex justify-between items-center py-12 border-t">
       <div className="flex-1">

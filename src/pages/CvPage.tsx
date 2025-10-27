@@ -1,5 +1,5 @@
 /** @source content2 */
-import React from 'react';
+
 import { FileText, Mail, Phone, MapPin, Calendar, Award, Briefcase, GraduationCap } from 'lucide-react';
 import { Badge } from '@/components/ui/badge';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';

@@ -1,5 +1,5 @@
 /** @source timeline6 */
-import React from 'react';
+
 import { levensloopData } from '@/data/levensloop';
 import PageNavigation from '@/components/PageNavigation';
 

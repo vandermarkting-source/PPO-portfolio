@@ -1,5 +1,5 @@
 /** @source belbin-page */
-import React from 'react';
+
 import PageNavigation from '@/components/PageNavigation';
 
 

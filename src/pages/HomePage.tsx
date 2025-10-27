@@ -1,7 +1,7 @@
 /** @source hero196 */
-import React from 'react';
+
 import { Link } from 'react-router-dom';
-import { ArrowRight, User, Calendar, MessageSquare, Target, FileText, Home, Users } from 'lucide-react';
+import { ArrowRight, User, Calendar, MessageSquare, Target, Home, Users } from 'lucide-react';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
